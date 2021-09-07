@@ -14,7 +14,7 @@ namespace ProAgil.Repositorio.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Local = table.Column<string>(nullable: true),
-                    DataEvento = table.Column<DateTime>(nullable: false),
+                    DataEvento = table.Column<DateTime>(nullable: true),
                     Tema = table.Column<string>(nullable: true),
                     QtdePessoas = table.Column<int>(nullable: false),
                     ImagemURL = table.Column<string>(nullable: true),
