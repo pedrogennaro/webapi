@@ -62,7 +62,6 @@ namespace ProAgil.WebAPI.Controllers
                     }
                 }
                 
-
                 return Ok();
             }
             catch (System.Exception e)
